@@ -1,0 +1,6 @@
+*.o
+*.skel.h
+lyncis_edr
+exploit_sim
+evidence_*
+.DS_Store
