@@ -48,3 +48,57 @@ graph TD
     C --> D[User-Space: Collector]
     D --> E[Forensic Trigger: SIGSTOP]
     E --> F[AI Reasoning: Patch Generation]
+```
+## 🛠️ Deployment & Audit
+Prerequisites
+
+Linux Kernel 5.7+
+
+clang
+
+llvm
+
+libbpf-dev
+
+Root privileges
+
+## One-Touch Installation & Audit
+
+# Clone repository
+```
+git clone https://github.com/SS7ZX/Lyncis-EDR.git
+cd Lyncis-EDR
+
+# Run automated audit
+# Includes compilation, sensor attachment, and exploit simulation
+chmod +x audit.sh
+sudo ./audit.sh
+```
+
+## 👥 Stakeholder Alignment
+Owners / Decision Makers
+
+Reduced breach impact
+
+Improved ROI
+
+Deterministic prevention over detection
+
+System Administrators
+
+Minimal runtime overhead
+
+Simple deployment model
+
+Clear auditability
+
+Security Researchers
+
+Deep kernel telemetry
+
+Automated forensic artifacts
+
+Reproducible exploit analysis
+
+## 🎓 Research Attribution
+<p align="center"> <b> SS7ZX </b><br/> <i>Security Engineering & Human-Computer Interaction (HCI) Research</i> </p>
